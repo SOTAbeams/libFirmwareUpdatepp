@@ -8,10 +8,11 @@ This library was created because making a good GUI frontend to dfu-util is diffi
 
 It may also allow useful things like a program to download an update to multiple devices at once to be made (difficult with dfu-util directly since it refuses to do more than one device at a time).
 
-Some work towards ABI stability by decoupling interface and implementation has been done involving, but this is incomplete and the interface should not be considered stable. This library is therefore best linked statically at the moment.
+Some work towards ABI stability by decoupling interface and implementation has been done, but this is incomplete and the interface should not be considered stable. This library is therefore best linked statically at the moment.
 
 ## Dependencies
-* C++14
+* cmake
+* C++ compiler supporting C++14
 * libusb
 
 ## Todo
